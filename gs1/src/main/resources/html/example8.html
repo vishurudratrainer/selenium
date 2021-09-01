@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Radio Buttons</title>
+</head>
+<body>
+<form>
+    <input type="radio" name="choice" id="yes" value="yes"> Yes
+    <input type="radio" name="choice" id="no" value="no"> No
+    <input type="button" id="btn" class="btnClass" value="Show Selected Value">
+</form>
+<p id="text" ></p>
+<script>
+        const btn = document.querySelector('#btn');
+        // handle click button
+        btn.onclick = function () {
+            const rbs = document.querySelectorAll('input[name="choice"]');
+            let selectedValue;
+            for (const rb of rbs) {
+                if (rb.checked) {
+                    selectedValue = rb.value;
+                    break;
+                }
+            }
+
+            var text = document.getElementById("text");
+             text.innerHTML =selectedValue;
+        };
+    </script>
+</body>
+</html>

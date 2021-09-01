@@ -1,0 +1,58 @@
+# Created at 2021-03-22T23:47:03.266
+Boot Manifest-JAR contains absolute paths in classpath 'D:\seleniumlab\junit-eg\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
+# Created at 2021-03-22T23:47:05.725
+Exception in thread "main" java.lang.reflect.InvocationTargetException
+
+# Created at 2021-03-22T23:47:05.726
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2021-03-22T23:47:05.726
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2021-03-22T23:47:05.727
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2021-03-22T23:47:05.729
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+
+# Created at 2021-03-22T23:47:05.729
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513)
+
+# Created at 2021-03-22T23:47:05.729
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:525)
+
+# Created at 2021-03-22T23:47:05.730
+Caused by: java.lang.RuntimeException: Class java/util/UUID could not be instrumented.
+
+# Created at 2021-03-22T23:47:05.731
+	at org.jacoco.agent.rt.internal_8ff85ea.core.runtime.ModifiedSystemClassRuntime.createFor(ModifiedSystemClassRuntime.java:140)
+
+# Created at 2021-03-22T23:47:05.732
+	at org.jacoco.agent.rt.internal_8ff85ea.core.runtime.ModifiedSystemClassRuntime.createFor(ModifiedSystemClassRuntime.java:101)
+
+# Created at 2021-03-22T23:47:05.732
+	at org.jacoco.agent.rt.internal_8ff85ea.PreMain.createRuntime(PreMain.java:55)
+
+# Created at 2021-03-22T23:47:05.733
+	at org.jacoco.agent.rt.internal_8ff85ea.PreMain.premain(PreMain.java:47)
+
+# Created at 2021-03-22T23:47:05.733
+	... 6 more
+
+# Created at 2021-03-22T23:47:05.734
+Caused by: java.lang.NoSuchFieldException: $jacocoAccess
+
+# Created at 2021-03-22T23:47:05.734
+	at java.base/java.lang.Class.getField(Class.java:2013)
+
+# Created at 2021-03-22T23:47:05.736
+	at org.jacoco.agent.rt.internal_8ff85ea.core.runtime.ModifiedSystemClassRuntime.createFor(ModifiedSystemClassRuntime.java:138)
+
+# Created at 2021-03-22T23:47:05.736
+	... 9 more
+
+# Created at 2021-03-22T23:47:05.736
+*** java.lang.instrument ASSERTION FAILED ***: "result" with message agent load/premain call failed at ./open/src/java.instrument/share/native/libinstrument/JPLISAgent.c line: 422
+

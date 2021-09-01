@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body onload="myFunction()">
+
+<p>Display some text when the checkbox is checked:</p>
+
+<label for="myCheck">Checkbox:</label>
+<input type="checkbox" id="myCheck" onclick="myFunction()">
+
+<p id="text" ></p>
+
+<script>
+function myFunction() {
+  var checkBox = document.getElementById("myCheck");
+  var text = document.getElementById("text");
+  if (checkBox.checked == true){
+    text.innerHTML ='Checkbox is CHECKED';
+  } else {
+     text.innerHTML ='Checkbox is NOT CHECKED';
+  }
+}
+</script>
+
+</body>
+</html>

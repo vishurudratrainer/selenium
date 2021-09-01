@@ -1,0 +1,102 @@
+00:18:25.060 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+00:18:25.121 INFO [GridLauncherV3.lambda$buildLaunchers$5] - Launching Selenium Grid hub on port 4444
+00:18:25.679 INFO [Hub.start] - Selenium Grid hub is up and running
+00:18:25.680 INFO [Hub.start] - Nodes should register to http://192.168.56.1:4444/grid/register/
+00:18:25.680 INFO [Hub.start] - Clients should connect to http://192.168.56.1:4444/wd/hub
+00:18:27.160 INFO [DefaultGridRegistry.add] - Registered a node http://192.168.56.1:5566
+00:18:35.727 INFO [DefaultGridRegistry.add] - Registered a node http://192.168.56.1:5566
+00:18:35.728 WARN [DefaultGridRegistry.removeIfPresent] - Cleaning up stale test sessions on the unregistered node http://192.168.56.1:5566
+00:18:56.808 INFO [RequestHandler.process] - Got a request to create a new session: Capabilities {browserName: firefox, marionette: true, platform: WIN10, seleniumProtocol: WebDriver}
+00:18:56.810 INFO [TestSlot.getNewSession] - Trying to create a new session on test slot {server:CONFIG_UUID=851b4fef-d8f9-4d38-bcd0-6dbac4d0f60d, seleniumProtocol=WebDriver, marionette=true, browserName=firefox, maxInstances=5, platformName=WIN10, platform=WIN10}
+00:23:09.458 INFO [RequestHandler.process] - Got a request to create a new session: Capabilities {browserName: firefox, marionette: true, platform: WIN10, seleniumProtocol: WebDriver}
+00:23:09.459 INFO [TestSlot.getNewSession] - Trying to create a new session on test slot {server:CONFIG_UUID=851b4fef-d8f9-4d38-bcd0-6dbac4d0f60d, seleniumProtocol=WebDriver, marionette=true, browserName=firefox, maxInstances=5, platformName=WIN10, platform=WIN10}
+00:25:21.847 INFO [RequestHandler.process] - Got a request to create a new session: Capabilities {browserName: firefox, marionette: true, platform: WIN10, seleniumProtocol: WebDriver}
+00:25:21.849 INFO [TestSlot.getNewSession] - Trying to create a new session on test slot {server:CONFIG_UUID=851b4fef-d8f9-4d38-bcd0-6dbac4d0f60d, seleniumProtocol=WebDriver, marionette=true, browserName=firefox, maxInstances=5, platformName=WIN10, platform=WIN10}
+00:30:13.099 INFO [RequestHandler.process] - Got a request to create a new session: Capabilities {browserName: firefox, loggingPrefs: org.openqa.selenium.logging..., marionette: true, platform: WIN10, seleniumProtocol: WebDriver}
+00:30:13.100 INFO [TestSlot.getNewSession] - Trying to create a new session on test slot {server:CONFIG_UUID=851b4fef-d8f9-4d38-bcd0-6dbac4d0f60d, seleniumProtocol=WebDriver, marionette=true, browserName=firefox, maxInstances=5, platformName=WIN10, platform=WIN10}
+00:30:52.432 INFO [RequestHandler.process] - Got a request to create a new session: Capabilities {browserName: firefox, loggingPrefs: org.openqa.selenium.logging..., marionette: true, platform: WIN10, seleniumProtocol: WebDriver}
+00:30:52.432 INFO [TestSlot.getNewSession] - Trying to create a new session on test slot {server:CONFIG_UUID=851b4fef-d8f9-4d38-bcd0-6dbac4d0f60d, seleniumProtocol=WebDriver, marionette=true, browserName=firefox, maxInstances=5, platformName=WIN10, platform=WIN10}
+00:31:47.605 INFO [RequestHandler.process] - Got a request to create a new session: Capabilities {browserName: firefox, loggingPrefs: org.openqa.selenium.logging..., marionette: true, platform: WIN10, seleniumProtocol: WebDriver}
+00:31:47.605 INFO [TestSlot.getNewSession] - Trying to create a new session on test slot {server:CONFIG_UUID=851b4fef-d8f9-4d38-bcd0-6dbac4d0f60d, seleniumProtocol=WebDriver, marionette=true, browserName=firefox, maxInstances=5, platformName=WIN10, platform=WIN10}
+00:33:38.978 INFO [RequestHandler.process] - Got a request to create a new session: Capabilities {browserName: firefox, loggingPrefs: org.openqa.selenium.logging..., marionette: true, platform: WIN10, seleniumProtocol: WebDriver}
+00:33:38.978 INFO [TestSlot.getNewSession] - Trying to create a new session on test slot {server:CONFIG_UUID=851b4fef-d8f9-4d38-bcd0-6dbac4d0f60d, seleniumProtocol=WebDriver, marionette=true, browserName=firefox, maxInstances=5, platformName=WIN10, platform=WIN10}
+00:34:37.125 INFO [RequestHandler.process] - Got a request to create a new session: Capabilities {browserName: firefox, loggingPrefs: org.openqa.selenium.logging..., marionette: true, platform: WIN10, seleniumProtocol: WebDriver}
+00:34:37.126 INFO [TestSlot.getNewSession] - Trying to create a new session on test slot {server:CONFIG_UUID=851b4fef-d8f9-4d38-bcd0-6dbac4d0f60d, seleniumProtocol=WebDriver, marionette=true, browserName=firefox, maxInstances=5, platformName=WIN10, platform=WIN10}
+00:36:47.806 INFO [RequestHandler.process] - Got a request to create a new session: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}
+00:36:47.806 INFO [TestSlot.getNewSession] - Trying to create a new session on test slot {server:CONFIG_UUID=851b4fef-d8f9-4d38-bcd0-6dbac4d0f60d, seleniumProtocol=WebDriver, marionette=true, browserName=firefox, maxInstances=5, platformName=WIN10, platform=WIN10}
+00:38:53.528 INFO [RequestHandler.process] - Got a request to create a new session: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}
+00:38:53.529 INFO [TestSlot.getNewSession] - Trying to create a new session on test slot {server:CONFIG_UUID=851b4fef-d8f9-4d38-bcd0-6dbac4d0f60d, seleniumProtocol=WebDriver, marionette=true, browserName=firefox, maxInstances=5, platformName=WIN10, platform=WIN10}
+00:40:11.735 INFO [RequestHandler.process] - Got a request to create a new session: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}
+00:40:11.736 INFO [TestSlot.getNewSession] - Trying to create a new session on test slot {server:CONFIG_UUID=851b4fef-d8f9-4d38-bcd0-6dbac4d0f60d, seleniumProtocol=WebDriver, marionette=true, browserName=firefox, maxInstances=5, platformName=WIN10, platform=WIN10}
+00:40:16.485 INFO [RequestHandler.process] - Error forwarding the new session Error forwarding the request org.seleniumhq.jetty9.io.EofException
+org.openqa.grid.internal.exception.NewSessionException: Error forwarding the request org.seleniumhq.jetty9.io.EofException
+	at org.openqa.grid.web.servlet.handler.RequestHandler.forwardNewSessionRequestAndUpdateRegistry(RequestHandler.java:94)
+	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:114)
+	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
+	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.openqa.grid.common.exception.ClientGoneException: org.seleniumhq.jetty9.io.EofException
+	at org.openqa.grid.internal.TestSession.writeRawBody(TestSession.java:484)
+	at org.openqa.grid.internal.TestSession.forward(TestSession.java:278)
+	at org.openqa.grid.web.servlet.handler.RequestHandler.forwardNewSessionRequestAndUpdateRegistry(RequestHandler.java:91)
+	... 35 more
+Caused by: org.seleniumhq.jetty9.io.EofException
+	at org.seleniumhq.jetty9.io.ChannelEndPoint.flush(ChannelEndPoint.java:286)
+	at org.seleniumhq.jetty9.io.WriteFlusher.flush(WriteFlusher.java:393)
+	at org.seleniumhq.jetty9.io.WriteFlusher.write(WriteFlusher.java:277)
+	at org.seleniumhq.jetty9.io.AbstractEndPoint.write(AbstractEndPoint.java:380)
+	at org.seleniumhq.jetty9.server.HttpConnection$SendCallback.process(HttpConnection.java:802)
+	at org.seleniumhq.jetty9.util.IteratingCallback.processing(IteratingCallback.java:241)
+	at org.seleniumhq.jetty9.util.IteratingCallback.iterate(IteratingCallback.java:224)
+	at org.seleniumhq.jetty9.server.HttpConnection.send(HttpConnection.java:538)
+	at org.seleniumhq.jetty9.server.HttpChannel.sendResponse(HttpChannel.java:831)
+	at org.seleniumhq.jetty9.server.HttpChannel.write(HttpChannel.java:887)
+	at org.seleniumhq.jetty9.server.HttpOutput.write(HttpOutput.java:239)
+	at org.seleniumhq.jetty9.server.HttpOutput.write(HttpOutput.java:215)
+	at org.seleniumhq.jetty9.server.HttpOutput.write(HttpOutput.java:540)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at org.openqa.grid.internal.TestSession.writeRawBody(TestSession.java:482)
+	... 37 more
+Caused by: java.io.IOException: Connection reset by peer
+	at java.base/sun.nio.ch.SocketDispatcher.writev0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.writev(SocketDispatcher.java:58)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:182)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:130)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:514)
+	at org.seleniumhq.jetty9.io.ChannelEndPoint.flush(ChannelEndPoint.java:266)
+	... 51 more
+00:40:20.833 INFO [RequestHandler.process] - Got a request to create a new session: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}
+00:40:20.834 INFO [TestSlot.getNewSession] - Trying to create a new session on test slot {server:CONFIG_UUID=851b4fef-d8f9-4d38-bcd0-6dbac4d0f60d, seleniumProtocol=WebDriver, marionette=true, browserName=firefox, maxInstances=5, platformName=WIN10, platform=WIN10}
+00:46:00.122 INFO [RequestHandler.process] - Got a request to create a new session: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}
+00:46:00.122 INFO [TestSlot.getNewSession] - Trying to create a new session on test slot {server:CONFIG_UUID=851b4fef-d8f9-4d38-bcd0-6dbac4d0f60d, seleniumProtocol=WebDriver, marionette=true, browserName=firefox, maxInstances=5, platformName=WIN10, platform=WIN10}

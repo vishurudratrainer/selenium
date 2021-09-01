@@ -1,0 +1,70 @@
+
+<html>
+<head>
+    <meta name="robots" content="nofollow, noindex">
+
+    <title>Ajax Test</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/slider-cars.css" rel="stylesheet">
+    <link href="css/home-bar.css" rel="stylesheet">
+
+    <script src="js/jquery.js"></script>
+
+</head>
+<body>
+
+<div id="includedContent"></div>
+
+<!-- ##### End Nav Bar ##### -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<div class="container">
+    <form>
+        <p>
+            <label>
+                <input type="radio" id ="yes" name="name" value="Yes"> Yes
+            </label>
+            <label>
+                <input type="radio" id="no" name="name" value="No" > No
+            </label>
+        </p>
+        <p>
+            <input type="reset" value="Reset">
+            <input type="submit" id="buttoncheck" value="Check">
+        </p>
+        <p  id="text" class="radiobutton"></p>
+    </form>
+</div>
+<script>
+$('#buttoncheck').click(function(){
+    if ($("input[name='name']").is(':checked')) {
+        $('.radiobutton').html("Radio button is checked and it's value is "+$("input[name='name']:checked").val())
+    }
+    else {
+        $('.radiobutton').html('Radio button is Not checked')
+    }
+    // return false  use as per you need
+    return false;
+})
+</script>
+
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/treemenu.js"></script>
+<script src="js/slider-cars.js"></script>
+<script src="js/home-bar.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-1248015-24"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-1248015-24');
+</script>
+</body>
+</html>
